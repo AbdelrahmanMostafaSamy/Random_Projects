@@ -14,4 +14,4 @@ Random Small Projects that don't deserve a repo
 > Credit for word list: https://github.com/dwyl/english-words
 
 * **Amount of Even and Odd numbers in a Randomally generated number file**
-> Script generates 100 random numbers in the `numberfile.txt` file and prints the numbers that are even and odd, and in the end tells you > how many odd numbers there were and how many even numbers there were
+> Script generates 100 random numbers in the `numberfile.txt` file and prints the numbers that are even and odd, and in the end tells you how many odd numbers there were and how many even numbers there were
