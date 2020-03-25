@@ -11,3 +11,4 @@ Random Small Projects that don't deserve a repo
 
 * **Searching for Keyword in World List**
 > You enter a keyword and the script searchs the keyword in all the 479,000 words and adds them to `words with keyword.txt`
+> Credit for word list: https://github.com/dwyl/english-words
