@@ -14,7 +14,6 @@ with open("numberfile.txt", mode="w+") as testfile:
 amountOfEvenNumbers = 0
 amountOfOddNumbers = 0
 for line in testfile:
-    print(line)
     try:
         if int(line)%2 == 0:
             amountOfEvenNumbers += 1
