@@ -1,4 +1,3 @@
-import logging as log
 import random
 
 with open("numberfile.txt", mode="w+") as testfile:
@@ -14,14 +13,13 @@ with open("numberfile.txt", mode="w+") as testfile:
 amountOfEvenNumbers = 0
 amountOfOddNumbers = 0
 for line in testfile:
-    try:
-        if int(line)%2 == 0:
-            amountOfEvenNumbers += 1
-            print(f"{line} is an Even Number")
-        elif int(line)%2 != 0:
-            amountOfOddNumbers += 1
-            print(f"{line} is an Odd Number")
-    except ValueError:
-        log.exception(ValueError)
+    if line = "":
+    	pass
+	if int(line)%2 == 0:
+        amountOfEvenNumbers += 1
+        print(f"{line} is an Even Number")
+    elif int(line)%2 != 0:
+        amountOfOddNumbers += 1
+        print(f"{line} is an Odd Number")
         
 print(f"\n\nAmount of Even Numbers are {amountOfEvenNumbers}, Amount of Odd Numbers are {amountOfOddNumbers}")
