@@ -15,3 +15,6 @@ Random Small Projects that don't deserve a repo
 
 * **Amount of Even and Odd numbers in a Randomally generated number file**
 > Script generates 100 random numbers in the `numberfile.txt` file and prints the numbers that are even and odd, and in the end tells you how many odd numbers there were and how many even numbers there were
+
+* ***Random File Creator**
+> Script generates random files with random names and extensions also containing random characters inside 
