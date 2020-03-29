@@ -15,7 +15,7 @@ if folder.lower() == "default":
 if pathlib.Path(folder).exists() == False:
     os.mkdir(folder)
 
-for i in range(int(input("How many random files do you want to create? "))):
+for i in range(int(input("How many random files do you want to create? ")) + 1):
     with open(f"{folder}\\{randomString(random.randint(3,20))}.{random.choice(allformats)}", "w") as f:
         for i in range(1, random.randint(1,10)):
             f.writelines(randomString(random.randint(1,200)))
